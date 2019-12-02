@@ -1,0 +1,5 @@
+/work/*/build
+/work/*/nbproject
+/work/*/test
+/work/*/*.xml
+/work/*/*.mf
