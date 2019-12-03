@@ -22,8 +22,8 @@ public class RowGraph extends Graph {
     public void print() {
         System.out.println(getCaption());
         for (Item item : items) {
-            System.out.print(String.format("%" + getMaxNameLength() + "s", item.getName()) + "|");
-            int symbolCount = (int) ((item.getValue() * maxValueSymbolCount) / getMaxValue());
+            System.out.print(String.format("%" + getItemMaxNameLength() + "s", item.getName()) + "|");
+            int symbolCount = (int) ((item.getValue() * maxValueSymbolCount) / getItemMaxValue());
             for (int i = 0; i < symbolCount; i++) {
                 System.out.print(symbol);
             }

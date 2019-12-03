@@ -26,7 +26,7 @@ public abstract class Graph {
         return caption;
     }
 
-    protected int getMaxValue() {
+    protected int getItemMaxValue() {
         /*
         int maxValue = 0;
         for (Item item : items) {
@@ -39,8 +39,7 @@ public abstract class Graph {
         return items.stream().max(Comparator.comparing(Item::getValue)).get().getValue();
     }
 
-    protected int getMaxNameLength() {
-        /*
+    protected int getItemMaxNameLength() {
         int maxNameLength = 0;
         for (Item item : items) {
             if (item.getName().length() > maxNameLength) {
@@ -48,8 +47,6 @@ public abstract class Graph {
             }
         }
         return maxNameLength;
-         */
-        return items.stream().max(Comparator.comparing(Item::getName)).get().getName().length();
     }
 
     public abstract void print();
