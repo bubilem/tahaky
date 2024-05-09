@@ -42,9 +42,11 @@ Shrnutí látky a kompetencí studenta 1. ročníku oboru informační technolog
 - Miny (Mine Field)
 - 2D vizualizace
 
-### Zdroje:
+### Zdroje ke studiu:
 
+- [Python.org](https://www.python.org/)
 - [Ponořme se do Python(u) 3](https://knihy.nic.cz/cs/detail/3/)
+- [Python Tutorial - W3SCHOOLS](https://www.w3schools.com/python/)
 - [Sololearn - Python Core](https://www.sololearn.com/)
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/)
 - [Python Cheat sheet (2024)](https://www.geeksforgeeks.org/python-cheat-sheet/)
